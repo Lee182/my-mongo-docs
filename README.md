@@ -34,7 +34,7 @@ MongoDB isn't like SQL and other relational databases (not like I know SQL or fr
 Rather data stored in a non-relational hierachy, and without schemas; so what does this mean
 ####non-relational hierachy
 relational table
-####Mongodb is has Embedded hierachy
+####Mongodb has Embedded hierachy
 Entries have like a json format, take if we were to model a blog page you could model each post as an document with an date and time and you could <strong>embed</strong> embed the comments within the post document. MAKE BLOG MODEL WIREFRAME Unlike SQL a releational database with data indexed to mulitple tables, data can be embedded within the posts object making it visually easilier to organize with pluses of less file space and faster read times
 ####Mongodb is Schemaless (without Schema)
 A schema from the [database terms](####Some database terms) further up the page is the set structure or model of an object. Mongodb is schemaless, this doesn't mean a document doesn't have a structure or consistentcy it just means that the database is flexible, having new fields where they werern't before or different data types for the same field. 
